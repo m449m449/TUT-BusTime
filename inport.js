@@ -1,0 +1,10 @@
+// インポートファイル
+document.write("<script src='lib/jsOAuth-1.3.6.min.js'><\/script>");
+document.write("<script src='lib/oauth.js'><\/script>");
+document.write("<script src='lib/sha1.js'><\/script>");
+document.write("<script src='gettable.js'><\/script>");
+document.write("<script src='twetterapi.js'><\/script>");
+document.write("<script src='location.js'><\/script>");
+document.write("<script src='timenow.js'><\/script>");
+document.write("<script src='Twitter-coop.js'><\/script>");
+document.write("<script src='onbutton.js'><\/script>");
