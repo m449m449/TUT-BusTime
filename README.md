@@ -2,7 +2,8 @@ TUT-BusTime
 ==
 
 東京工科大学のスクールバス時刻表、混雑状況共有アプリ<br>
-![image](./img/photo1.jpg) ![image](./img/photo2.jpg) ![image](./img/photo3.jpg) ![image](./img/photo4.jpg)
+![image](./img/photo1.jpg) ![image](./img/photo2.jpg)<br>
+![image](./img/photo3.jpg) ![image](./img/photo4.jpg)
 
 gettable.js：バックエンドよりプロパティの取得、公式交通案内ページより時刻表のスクレイピング<br>
 index.html:表示ページ<br>
