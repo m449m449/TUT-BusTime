@@ -45,7 +45,7 @@ $(function(){
       console.error(JSON.stringify(err));
     });
     //*/
-    //Monacaバックエンドで手動追加はなぜか読み取ってくれない？のでコードで追加.(デバッグ用)
+    //Monacaバックエンドで手動追加は読み取ってくれない？のでコードで追加.(デバッグ用)
     /*
     collection.insert({ "start": 20140601,
     "end": 20140614,
@@ -93,7 +93,7 @@ $(function(){
             alert(JSON.stringify(err)); 
         });
     }
-  
+    /*時刻表更新日の確認*/
     function First(){
         //today = 20140808;//debug用
         //past = 20140720;
@@ -105,7 +105,7 @@ $(function(){
             Loading();
             //BackEndUp();
         }else{
-            /*
+            /* 
             if(today <= end){//臨時スケジュール
                 if(window.localStorage.getItem("read") != "false"){
                     window.localStorage.setItem("read","false");//1度臨時を読み込んだかどうか
@@ -155,6 +155,7 @@ $(function(){
                     }else if($(data).find('.commonDetailBox01').html()){
                          $("#emp").html($(data).find('.commonDetailBox01'));
                     }
+                    /*ヘッダの書き込み*/
                     if(i == 0){
                         if($(".commonDetailBox01").html()){
                             $(".commonDetailBox01").before($(data).find('h3')[0]);
@@ -198,7 +199,7 @@ $(function(){
         });
     }
     /*
-    //バックエンドにアップ.(OnsenUIverはこいつにアップしてもらったものを使う)
+    //バックエンドにアップ.(OnsenUIverはこれにアップしてもらったものを使う)
     function BackEndUp(){
         collection.find(MC.Criteria("_id==?", [id]))
         .done(function(items)
