@@ -23,8 +23,8 @@ $(function(){
     var xday = 15;//更新日
     var long_va = 0;//長期休暇プロパティ
     var long_vacation = 0;//長期休暇フラグ
-    getBackEnd()
-    //更新.
+    getBackEnd();
+    /*更新*/
     /*
     collection.find(MC.Criteria("_id==?", [id]))
     .done(function(items)
